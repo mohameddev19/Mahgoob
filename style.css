@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root{
+    --color1: #289126;
+    --color2: #BCBC70;
+    --color3: #1F1F1F;
+    --bg: #ffffff;
+    --bg2: rgb(173, 173, 185);
+    --color: #666666;
+    --footer: rgb(224, 224, 224);
+    --shadow: rgba(0, 0, 0, 0.1);
+    --big-shadow: rgba(131, 131, 131, 0.1);
+    --font: "Poppins";
+}
+::-webkit-scrollbar{
+    width: 5px;
+    height: 6px;
+    transition-duration: 0.4s;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--color3);
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+body{
+    direction: rtl;
+    color: var(--color) !important;
+    background-color: var(--bg) !important;
+    font-family: var(--font);
+}
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+a{
+    text-decoration: none !important;
+    color: #666 !important;
+    font-size:medium;
+    font-weight: medium;
+}
+button{
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+::after, ::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.hidde{
+    display: none;
+}
+
+.nav{
+    text-align: center;
+    background-image: url('./img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: var(--color3);
+    margin-top: 0rem !important;
+    margin-bottom: 5rem !important;
+    padding-bottom: 1rem;
+}
+.nav p,.nav h1{
+    margin-bottom: .1rem !important;
+}
+
+.nav .logo{
+    margin-top: 2rem !important;
+}
+
+.nav .links{
+    margin-top: 1.5rem !important;
+    margin-bottom: 3.5rem !important;
+}
+
+
+.cards{
+    margin-bottom: 5rem;
+}
+.cards .card{
+    border: none;
+    outline: none;
+    background-color: #F6F6F6;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    width: 16rem !important;
+    height: 18rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.cards .card:nth-child(2){
+    background-color: var(--color1);
+    color: var(--bg);
+}
+
+
+.cards .card i{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.title{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.title p,.title h1{
+    margin-bottom: .1rem !important;
+}
+
+
+.tabs_btns{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.tabs_btns a{
+    margin: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tabs_btns a:active{
+    text-decoration: underline !important;
+}
+
+.tabs{
+    margin-bottom: 4rem;
+}
+.tabs .tab > div{
+    width: 8rem !important;
+    min-height: 10rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    text-align: center;
+}
+.tabs .tab p{
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+.tabs .tab div p:first-child{
+    color: var(--color2);
+}
+.tabs .tab div .img{
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 8rem;
+}
+
+
+.footer{
+    text-align: center;
+    background-color: rgba(40, 145, 38, 0.90);
+    color: var(--bg);
+    padding-top: 3rem;
+    padding-bottom: 3rem !important;
+}
+.footer h1{
+    margin-bottom: 2rem;
+}
+.footer p{
+    margin-bottom: 1rem;
+}
+.footer a{
+    font-weight: bold;
+    color: var(--bg) !important;
+}
+.footer a button{
+    border: solid 2px var(--bg);
+    background-color: rgba(40, 145, 38, 0.90);
+    font-weight: bold;
+    color: var(--bg) !important;
+}
